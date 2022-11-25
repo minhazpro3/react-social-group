@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner";
+import Feeds from "../components/Feeds";
 import GroupTitle from "../components/GroupTitle";
 import NavBar from "../components/NavBar";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <NavBar />
       <Banner />
       <GroupTitle />
+      <Feeds />
     </div>
   );
 };

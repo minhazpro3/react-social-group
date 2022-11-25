@@ -34,7 +34,7 @@ const GroupTitle = () => {
                 <p
                   className={`${
                     state.active === "allPost"
-                      ? "pb-2 border-bottom border-2 border-dark  "
+                      ? "pb-2 border-bottom border-2 border-dark opacity-50 "
                       : "pb-2"
                   }`}
                 >
@@ -45,7 +45,7 @@ const GroupTitle = () => {
                 <p
                   className={`${
                     state.active === "article"
-                      ? "border-bottom border-2 border-dark d-md-block pb-2 d-none"
+                      ? "border-bottom border-2 border-dark opacity-50 d-md-block pb-2 d-none "
                       : "d-md-block pb-2 d-none "
                   }`}
                 >
@@ -56,7 +56,7 @@ const GroupTitle = () => {
                 <p
                   className={`${
                     state.active === "event"
-                      ? " border-bottom d-md-block pb-2 d-none border-2 border-dark"
+                      ? " border-bottom d-md-block opacity-50 pb-2 d-none border-2 border-dark"
                       : "d-md-block pb-2 d-none"
                   }`}
                 >
@@ -67,7 +67,7 @@ const GroupTitle = () => {
                 <p
                   className={`${
                     state.active === "education"
-                      ? " border-bottom d-md-block pb-2 d-none border-2 border-dark"
+                      ? " border-bottom d-md-block opacity-50 pb-2 d-none border-2 border-dark"
                       : "d-md-block pb-2 d-none"
                   }`}
                 >
@@ -78,7 +78,7 @@ const GroupTitle = () => {
                 <p
                   className={`${
                     state.active === "jobs"
-                      ? " border-bottom d-md-block pb-2 d-none border-2 border-dark"
+                      ? " border-bottom d-md-block opacity-50 pb-2 d-none border-2 border-dark"
                       : "d-md-block pb-2 d-none"
                   }`}
                 >
