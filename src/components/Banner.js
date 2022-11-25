@@ -11,6 +11,7 @@ const Banner = () => {
         height: "440px",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        fontFamily: "IBM Plex Sans",
       }}
     >
       <div className="container ">

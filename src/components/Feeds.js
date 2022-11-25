@@ -186,7 +186,7 @@ const Feeds = () => {
                   <MdOutlineLocationOn />
                   Nodia, India <HiPencil />
                 </p>
-                <p className="fs-5 opacity-50">
+                <p className="fs-5 opacity-50 font-weight-normal">
                   {" "}
                   <img src={iButton} alt="" /> Your location help us server
                   better and extend a personalised experience.

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Banner from "../components/Banner";
 import Feeds from "../components/Feeds";
 import GroupTitle from "../components/GroupTitle";
@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <div>
       <NavBar />
+
       <Banner />
       <GroupTitle />
       <Feeds />
